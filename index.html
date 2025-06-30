@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Speed Battle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>⚔️ Typing Speed Battle</h1>
+    <div class="scoreboard">
+      <p>Score: <span id="score">0</span></p>
+      <p>Missed: <span id="missed">0</span></p>
+    </div>
+    <div class="game-area" id="gameArea"></div>
+    <input
+      type="text"
+      id="wordInput"
+      placeholder="Type here..."
+      autofocus
+      autocomplete="off"
+    />
+    <button id="startBtn">Start Game</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
